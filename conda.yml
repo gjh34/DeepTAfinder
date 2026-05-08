@@ -1,0 +1,21 @@
+name: DeepTAfinder
+dependencies:
+  - python==3.9.7
+  - emboss==6.5.7
+  - pip==22.3.1
+  - pip:
+    - biopython==1.79
+    - torch==1.13.1
+    - einops==0.6.0
+    - fair-esm==2.0.0
+    - tqdm==4.64.1
+    - pandas==1.5.2
+    - numpy==1.23.5
+    - scikit-learn==1.2.0
+    - matplotlib==3.6.3
+    - seaborn==0.13.0
+    - tensorboardX==2.5.1
+    - umap-learn==0.5.3
+    - warmup-scheduler==0.3
+    - xgboost==2.1.4
+    - -e .
